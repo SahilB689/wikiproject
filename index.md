@@ -1,13 +1,16 @@
-# HTML
+{% extends "encyclopedia/layout.html" %}
 
-HTML is a markup language that can be used to define the structure of a web page. HTML elements include
+{% block title %}
+    Encyclopedia
+{% endblock %}
 
-* headings
-* paragraphs
-* lists
-* links
-* and more!
+{% block body %}
+    <h1>All Pages</h1>
 
-The most recent major version of HTML is HTML5.
+    <ul>
+        {% for entry in entries %}
+            <li>{{ entry }}</li>
+        {% endfor %}
+    </ul>
 
-<a href="{% url 'index' %}">All Flights</a>
+{% endblock %}
