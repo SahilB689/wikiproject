@@ -2,4 +2,4 @@
 title: Welcome
 layout: default
 --- 
-        <a>  href="index.html">yes</a>  
+       [Click here to visit my about page!](Python.md)
