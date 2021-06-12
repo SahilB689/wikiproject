@@ -40,7 +40,11 @@ ___
 ![alt text](http://picsum.photos/200/200)
 
 [Click here to visit my about page!](about.md)
-
+[Click here to visit my about page!](wikiproject/about.md)
+[Click here to visit my about page!](Django.md)
+[Click here to visit my about page!](Python.md)
+[Click here to visit my about page!](wikiproject/encyclopedia/templates/encyclopedia/index.html)
+[Click here to visit my about page!](index.html)
 
 <!-- UL -->
 * Item 1
