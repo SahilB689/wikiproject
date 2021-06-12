@@ -42,9 +42,13 @@ ___
 [Click here to visit my about page!](about.md)
 [Click here to visit my about page!](wikiproject/about.md)
 [Click here to visit my about page!](Django.md)
-[Click here to visit my about page!](Python.md)
+[Click here to visit my about page!](wikiproject/entries/Python.md)
 [Click here to visit my about page!](wikiproject/encyclopedia/templates/encyclopedia/index.html)
 [Click here to visit my about page!](index.html)
+
+<a href = "index.html" > Index page </a>
+<a href = "wikiproject/encyclopedia/templates/encyclopedia/index.html" > Index page </a>
+<a href = "wikiproject/entries/Python.md" > Python page </a>
 
 <!-- UL -->
 * Item 1
