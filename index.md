@@ -1,41 +1,5 @@
-<!DOCTYPE html>
-
-<html lang="en">
-    <head> 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="{% static 'encyclopedia/styles.css' %}" rel="stylesheet">
-    </head>
-    <body>
-    <h1>All Pages</h1>
-    <ul>
-        {% for entry in entries %}
-            <li>{{ entry }}</li>
-        {% endfor %}
-    </ul>
-        <div class="row">
-            <div class="sidebar col-lg-2 col-md-3">
-                <h2>Wiki</h2>
-                <form>
-                    <input class="search" type="text" name="q" placeholder="Search Encyclopedia">
-                </form>
-                <div>
-                    <a href="{% url 'index' %}">Home</a>
-                </div>
-                <div>
-                    Create New Page
-                </div>
-                <div>
-                    Random Page
-                </div>
-                {% block nav %}
-                {% endblock %}
-            </div>
-            <div class="main col-lg-10 col-md-9">
-                {% block body %}
-                {% endblock %}
-            </div>
-        </div>
-
-    </body>
-</html>
-
+---
+title: Welcome
+layout: default
+--- 
+        <a>  href="index.html">yes</a>  
