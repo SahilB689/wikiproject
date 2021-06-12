@@ -1,10 +1,9 @@
-{% extends "encyclopedia/layout.html" %}
-
-{% block title %}
-    Encyclopedia
-{% endblock %}
-
-{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flights</title>
+    </head>
+    <body>
     <h1>All Pages</h1>
 
     <ul>
@@ -12,5 +11,5 @@
             <li>{{ entry }}</li>
         {% endfor %}
     </ul>
-
-{% endblock %}
+    </body>
+</html> 
