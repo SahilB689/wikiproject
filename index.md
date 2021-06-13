@@ -9,8 +9,7 @@
 <!-- Italics -->
 *This text* is italic
 
-_This text_ is italic
-
+_This text_ is italic 
 <!-- Strong -->
 **This text** is italic
 
@@ -27,8 +26,8 @@ ___
 <!-- Blockquote -->
 > This is a quote
 
-<!-- Links --> 
-
+<!-- Links -->  
+[here](./index.html) 
 [this is the description](http://www.github.com) 
 
 [Traversy Media](http://www.traversymedia.com)
