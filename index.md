@@ -4,7 +4,7 @@
 ### Heading 3
 #### Heading 4
 ##### Heading 5
-###### Heading 6
+###### Heading 6 
 
 <!-- Italics -->
 *This text* is italic
@@ -27,7 +27,8 @@ ___
 <!-- Blockquote -->
 > This is a quote
 
-<!-- Links -->
+<!-- Links --> 
+
 [this is the description](http://www.github.com) 
 
 [Traversy Media](http://www.traversymedia.com)
@@ -43,8 +44,8 @@ ___
 [Click here to visit my about page!](wikiproject/about.md)
 [Click here to visit my about page!](Django.md)
 [Click here to visit my about page!](wikiproject/entries/Python.md)
-[Click here to visit my about page!](wikiproject/encyclopedia/templates/encyclopedia/index.html)
-[Click here to visit my about page!](https://github.com/SahilB689/wikiproject/blob/main/entries/Python.md)
+[Click here to visit my about page!](/encyclopedia/templates/encyclopedia/index.html)
+[Click here to visit my about page!](/blob/main/entries/Python.md)
 
 <a href = "index.html" > Index page </a>
 <a href = "wikiproject/encyclopedia/templates/encyclopedia/index.html" > Index page </a>
