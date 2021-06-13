@@ -27,7 +27,7 @@ ___
 > This is a quote
 
 <!-- Links -->  
-[here](./index.html) 
+[here](./layout.html) 
 [this is the description](http://www.github.com) 
 
 [Traversy Media](http://www.traversymedia.com)
